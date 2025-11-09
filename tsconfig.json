@@ -1,5 +1,5 @@
 {
-    "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
+    "include": ["client/src/**/*", "shared/**/*", "server/**/*", "backend/index.ts", "backend/routes.ts", "backend/server/geminibackend/server/storagebackend/server/vite.tsackend/vite.ts"],
     "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
     "compilerOptions": {
       "incremental": true,
